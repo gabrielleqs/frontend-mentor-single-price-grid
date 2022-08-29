@@ -1,0 +1,118 @@
+body {
+    width: auto;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center; 
+}
+
+main {
+    margin-top: 40px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 630px;
+    height: 470px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.join-container {
+    height: 45%;
+    max-height: 45%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 0 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.4em;
+    border-radius: 8px 8px 0 0;
+}
+
+.join-container > h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.join-container > h2 {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 13px;
+}
+
+.join-container > p {
+    color: hsl(218, 22%, 67%);
+}
+
+.container-bottom {
+    height: 55%;
+    max-height: 55%;
+    display: flex;
+    color: hsl(204, 43%, 93%);
+}
+
+.bottom-half {
+    width: 315px;
+    max-width: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 26px 40px 26px 40px;
+}
+
+.price-container {
+    background-color: hsl(179, 62%, 43%);
+    padding: 26px 40px 26px 40px;
+    border-radius: 0 0 0 8px;
+}
+
+.price-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-value {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.per-month {
+    color: hsla(203, 44%, 93%, 0.5);
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    height: 48px;
+    width: 235px;
+    border: none;
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(204, 43%, 93%);
+    color: hsl(179, 62%, 43%);
+}
+
+.why-container {
+    background-color: hsla(179, 62%, 43%, 0.8);
+    border-radius: 0 0 8px 0px;
+}
+
+.why-container > ul {
+    font-size: 14px;
+    line-height: 1.4em;
+    color: hsla(203, 44%, 93%, 0.8);
+}
